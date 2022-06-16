@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6791180811951544635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6791180811951544638}
+  - component: {fileID: 6791180811951544633}
+  m_Layer: 0
+  m_Name: PlayerMGRInGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6791180811951544638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6791180811951544635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6791180811951544633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6791180811951544635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8722933a1b4009249ab9b82aa597a742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  user:
+    playerTag: 
+    kills: 0
+    skin: 0
+    character: 0
+    caps: 0
+    feet: 0
+    torso: 0
+  SAL: {fileID: 0}
+  lobby: 0
+  frog1: {fileID: 8476982340374419015, guid: ba2024e7239a67b4b8d6afeea0a40446, type: 3}
+  frog2: {fileID: 6836219080070055068, guid: edd1c569ee3a0c64887a4427dd419fd0, type: 3}
+  frog3: {fileID: 6753435043533707333, guid: e3ad7a843317b8d48af21f391ee07fed, type: 3}
+  topHat: {fileID: 8721975430007337014, guid: d2f87e32eb6d9e1459b5c8f2cb79b5e8, type: 3}
+  Cap: {fileID: 4570016279485011232, guid: 247b0dad6bde0734d8b8de093d565d5b, type: 3}
+  CowBoyHat: {fileID: 8225607493550512890, guid: 1c339262caca81449a2ded90950955f7, type: 3}
+  timmsBootsL: {fileID: 6860396020024754734, guid: 93a4b6320b173694383032a8f8c80dd3, type: 3}
+  timmsBootsR: {fileID: 4566921684859364503, guid: 11f8644f84b2d82409e4196454d61712, type: 3}
+  SneakersL: {fileID: 8664524453931900849, guid: c01cdc72bfe597a4d9221499cc3dff42, type: 3}
+  SneakersR: {fileID: 5850417428989010592, guid: f4c29df2d22160e4587941e59e1b2d59, type: 3}
+  SandelsL: {fileID: 3585101856427342928, guid: 0e5ebf9da20b700439f04b4877072815, type: 3}
+  SandelsR: {fileID: 4652647002742909943, guid: c9ebded242f91df46b5554d7655dc44f, type: 3}
+  Chain: {fileID: 3324933741279650563, guid: d16896677ba3e9a4e9ee334bbf52b386, type: 3}
+  Scarf: {fileID: 1410537436855682737, guid: b1194f6d712db5747aca218603bf3089, type: 3}
+  Lanny: {fileID: 1889627037545845471, guid: b6947c495794ffd40b47fa402be478de, type: 3}
+  Head: {fileID: 0}
+  FootL: {fileID: 0}
+  FootR: {fileID: 0}
+  Torso: {fileID: 0}
+  sH: {fileID: 0}
+  sT: {fileID: 0}
+  sFL: {fileID: 0}
+  sFR: {fileID: 0}
